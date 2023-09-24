@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/andre1dragos/spot-on-age.git)
-- Live Site URL: [Live](https://andre1dragos.github.io/spot-on-age/)
+- Solution URL: [GitHub](https://github.com/andre1dragos/age_calculator.git)
+- Live Site URL: [Live](https://andre1dragos.github.io/age_calculator/)
 
 ### Built with
 
