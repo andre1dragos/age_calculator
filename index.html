@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- link css file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- wrapper container -->
+    <section class="wrapper">
+      <!-- inputs container -->
+      <div class="inputs-container">
+        <!-- input group for day -->
+        <div class="input-group">
+          <label id="day-label" class="label">Day</label>
+          <input type="number" id="day-input" class="input" placeholder="DD" />
+          <small id="day-error" class="error-msg hidden"
+            >This field is required</small
+          >
+        </div>
+        <!-- input group for month -->
+        <div class="input-group">
+          <label id="month-label" class="label">Month</label>
+          <input
+            type="number"
+            id="month-input"
+            class="input"
+            placeholder="MM"
+          />
+          <small id="month-error" class="error-msg hidden"
+            >This field is required</small
+          >
+        </div>
+        <!-- input group for year -->
+        <div class="input-group">
+          <label id="year-label" class="label">Year</label>
+          <input
+            type="number"
+            id="year-input"
+            class="input"
+            placeholder="YYYY"
+          />
+          <small id="year-error" class="error-msg hidden"
+            >This field is required</small
+          >
+        </div>
+
+        <!-- submit button -->
+        <button id="btn" class="submit-btn">
+          <img
+            src="./assets/images/icon-arrow.svg"
+            alt="svg-image"
+            class="svg-image"
+          />
+        </button>
+      </div>
+
+      <!-- outputs container -->
+      <div class="outputs-container">
+        <h1><span id="years-output" class="output">--</span>years</h1>
+        <h1><span id="months-output" class="output">--</span>months</h1>
+        <h1><span id="days-output" class="output">--</span>days</h1>
+      </div>
+    </section>
+
+    <!-- link javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
